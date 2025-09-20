@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@plugin "tailwind-scrollbar";
+
+@theme {
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1310px;
+
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Alex Brush", sans-serif;
+
+  --color-primary: #06062a;
+  --color-secondary: #151538;
+  --color-tertiary: #242445;
+  --color-accent: #7f1cfc;
+  --color-accent-hover: #6519c6;
+
+  --background-image-singerOverlay: url("/assets/hero/singer-overlay.png");
+  --background-image-newsletter: url("/assets/newsletter/bg.png");
+}
+
+body {
+  @apply bg-primary font-primary text-white;
+}
+
+.container {
+  @apply px-[15px] mx-auto max-w-327.5;
+}
+
+.section {
+  @apply py-12 xl:py-24;
+}
+
+.pretitle {
+  @apply font-secondary text-[42px] text-accent leading-none;
+}
+
+.h2 {
+  @apply text-[32px] xl:text-[38px] font-semibold leading-tight;
+}
+
+.btn {
+  @apply w-full flex items-center justify-center rounded-full cursor-pointer font-medium transition-colors duration-300;
+}
+
+.btn-sm {
+  @apply w-36.5 h-12.5;
+}
+
+.btn-lg {
+  @apply w-40 h-13.5;
+}
+
+.btn-accent {
+  @apply text-white bg-accent hover:bg-accent-hover;
+}
+
+.btn-white {
+  @apply text-primary bg-white hover:bg-white/80;
+}
