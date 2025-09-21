@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 import { EventCard } from "@/components/event-card";
+import { SectionHeader } from "@/components/section-header";
 
 import { events } from "@/lib/data";
 import { fadeIn } from "@/lib/variants";
@@ -12,8 +13,9 @@ export const EventList = () => {
   return (
     <section className="section" id="tours">
       <div className="container">
+        <SectionHeader pretitle="World Tour" title="Upcoming Events" />
         <motion.div
-          variants={fadeIn("up", 0.4)}
+          variants={fadeIn("up", 0.6)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
