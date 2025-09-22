@@ -27,7 +27,7 @@ export const Nav = ({ containerStyles, linkStyles }: NavProps) => {
           <li key={path}>
             <ScrollLink
               to={path}
-              smooth={isDesktop ? false : true}
+              smooth={isDesktop ? true : false}
               spy
               offset={-50}
               activeClass="active"

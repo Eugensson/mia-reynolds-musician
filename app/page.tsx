@@ -1,5 +1,6 @@
 import { Hero } from "@/components/hero";
 import { Player } from "@/components/player";
+import { Albums } from "@/components/albums";
 import { EventList } from "@/components/event-list";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Player />
       <EventList />
+      <Albums />
       <div className="h-1000" />
     </section>
   );
