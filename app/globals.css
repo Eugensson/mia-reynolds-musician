@@ -61,3 +61,57 @@ body {
 .btn-white {
   @apply text-primary bg-white hover:bg-white/80;
 }
+
+.rap-progress {
+  @apply !bg-[#6519c8];
+}
+
+.rap-pin {
+  @apply !bg-white;
+}
+
+.rap-container .rap-slider .rap-progress .rap-pin {
+  @apply !size-3.5 !bg-white;
+}
+
+.rap-container .rap-slider .rap-progress .rap-pin:hover {
+  @apply scale-[1.2] transition-all duration-300;
+}
+
+.rap-container {
+  @apply !p-0;
+}
+
+.rap-container .rap-pp-button svg {
+  @apply w-3.5;
+}
+
+.rap-container .rap-volume .rap-volume-btn svg {
+  @apply w-5.5;
+}
+
+.rap-container .rap-pp-button svg path,
+.rap-container .rap-volume .rap-volume-btn svg path {
+  @apply fill-accent;
+}
+
+.rap-current-time,
+.rap-total-time {
+  @apply font-primary text-[13px] font-medium;
+}
+
+.rap-container .rap-slider {
+  @apply !bg-[#33335b] !h-0.5;
+}
+
+.rap-container .rap-controls span {
+  @apply text-[15px];
+}
+
+.rap-volume-btn.rap-volume-open svg path {
+  @apply fill-white;
+}
+
+.rap-volume-controls {
+  @apply bg-primary/80;
+}
