@@ -412,3 +412,20 @@ export const posts = [
       "Join us for an electrifying night of classic rock hits at Central Park! The lineup includes tribute bands for legendary rock icons.",
   },
 ];
+
+export const locationSequence = [
+  "Los Angeles, USA",
+  3000,
+  "Rio de Janeiro, Brazil",
+  3000,
+  "Paris, France",
+  3000,
+  "Berlin, Germany",
+  3000,
+  "Athens, Greece",
+  3000,
+  "Bucharest, Romania",
+  3000,
+  "Warsaw, Poland",
+  3000,
+];
