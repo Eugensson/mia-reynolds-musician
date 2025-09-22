@@ -1,3 +1,17 @@
+import {
+  RiSpotifyFill,
+  RiYoutubeFill,
+  RiInstagramFill,
+  RiSoundcloudFill,
+} from "react-icons/ri";
+
+export const navLinks = [
+  { path: "home", label: "Home" },
+  { path: "tours", label: "Tours" },
+  { path: "discography", label: "Discography" },
+  { path: "contact", label: "Contact" },
+];
+
 export const events = [
   {
     id: "1",
@@ -428,4 +442,11 @@ export const locationSequence = [
   3000,
   "Warsaw, Poland",
   3000,
+];
+
+export const socialLinks = [
+  { icon: RiYoutubeFill, link: "https://youtube.com" },
+  { icon: RiInstagramFill, link: "https://instagram.com" },
+  { icon: RiSpotifyFill, link: "https://spotify.com" },
+  { icon: RiSoundcloudFill, link: "https://soundcloud.com" },
 ];
