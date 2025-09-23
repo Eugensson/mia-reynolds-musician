@@ -21,7 +21,7 @@ export const Footer = () => {
         >
           <Link
             href="mailto:info@mia-reynolds.com"
-            className="text-2xl lg:text-4xl font-semibold leading-tight"
+            className="text-2xl lg:text-4xl font-semibold leading-tight hover:text-primary/80 transition-colors"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="Send email"
