@@ -7,15 +7,14 @@ import { Newsletter } from "@/components/newsletter";
 
 const Home = () => {
   return (
-    <section>
+    <main>
       <Hero />
       <Player />
       <EventList />
       <Albums />
       <Blog />
       <Newsletter />
-      <div className="h-1000" />
-    </section>
+    </main>
   );
 };
 
