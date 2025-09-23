@@ -10,6 +10,7 @@ export const navLinks = [
   { path: "home", label: "Home" },
   { path: "tours", label: "Tours" },
   { path: "discography", label: "Discography" },
+  { path: "blog", label: "Blog" },
   { path: "contact", label: "Contact" },
 ];
 
@@ -222,6 +223,7 @@ export const posts = [
     title: "Rock Concert in Central Park",
     description:
       "Experience an unforgettable evening of high-energy rock under the open sky. Featuring powerful guitar riffs, legendary anthems, and a crowd that knows how to rock!",
+    href: "/",
   },
   {
     id: "2",
@@ -229,6 +231,7 @@ export const posts = [
     title: "Jazz Jam Session",
     description:
       "Immerse yourself in smooth improvisations and soulful melodies. Local jazz artists come together for a night of rhythm, swing, and pure groove.",
+    href: "/",
   },
   {
     id: "3",
@@ -236,6 +239,7 @@ export const posts = [
     title: "EDM Extravaganza",
     description:
       "Get ready for pulsating beats, dazzling lights, and non-stop dance vibes. Top DJs will keep the energy high all night long.",
+    href: "/",
   },
   {
     id: "4",
@@ -243,6 +247,7 @@ export const posts = [
     title: "Acoustic Coffeehouse",
     description:
       "Relax in a cozy atmosphere with warm coffee aromas and intimate acoustic sets by talented singer-songwriters.",
+    href: "/",
   },
   {
     id: "5",
@@ -250,6 +255,7 @@ export const posts = [
     title: "Classical Symphony Showcase",
     description:
       "Witness a breathtaking performance of timeless symphonies by a full orchestra. A night of elegance, harmony, and musical mastery.",
+    href: "/",
   },
   {
     id: "6",
@@ -257,6 +263,7 @@ export const posts = [
     title: "Hip-Hop Dance Battle",
     description:
       "Feel the rhythm, watch the moves, and cheer for your favorites as dancers face off in an epic hip-hop showdown.",
+    href: "/",
   },
 ];
 

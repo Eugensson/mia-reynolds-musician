@@ -29,4 +29,5 @@ export type Post = {
   date: string;
   title: string;
   description: string;
+  href: string;
 };
